@@ -17,22 +17,29 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default:  "Chanpreet Singh — Web Developer",
+    default: "Chanpreet Singh — Web Developer",
     template: "%s — Chanpreet",
   },
   description:
     "Portfolio of Chanpreet Singh, a frontend & full-stack web developer based in Punjab, India.",
+  icons: {
+    icon: [
+      { url: "/favicon-192x192.png", sizes: "192x192", type: "image/png" },
+      { url: "/favicon-512x512.png", sizes: "512x512", type: "image/png" },
+    ],
+  },
   authors: [{ name: "Chanpreet Singh" }],
   openGraph: {
-    title:       "Chanpreet Singh — Web Developer",
-    description: "Frontend & full-stack developer crafting intuitive user experiences.",
-    url:         "https://chanpreet.dev",
-    siteName:    "Chanpreet Singh",
-    locale:      "en_US",
-    type:        "website",
+    title: "Chanpreet Singh — Web Developer",
+    description:
+      "Frontend & full-stack developer crafting intuitive user experiences.",
+    url: "https://chanpreet.dev",
+    siteName: "Chanpreet Singh",
+    locale: "en_US",
+    type: "website",
   },
   twitter: {
-    card:  "summary_large_image",
+    card: "summary_large_image",
     title: "Chanpreet Singh — Web Developer",
   },
 };
@@ -54,9 +61,11 @@ export default function RootLayout({
     >
       <body className="relative min-h-full flex flex-col bg-neutral-100 dark:bg-neutral-950 dark:text-white px-5">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-
           {/* Ambient background glow — decorative only */}
-          <div aria-hidden="true" className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+          <div
+            aria-hidden="true"
+            className="pointer-events-none fixed inset-0 -z-10 overflow-hidden"
+          >
             <div className="absolute -top-1/3 left-1/2 -translate-x-1/2 w-150 h-150 rounded-full bg-sky-200/40 dark:bg-sky-900/20 blur-3xl" />
           </div>
 
@@ -67,7 +76,6 @@ export default function RootLayout({
           </main>
 
           <Footer />
-
         </ThemeProvider>
       </body>
     </html>

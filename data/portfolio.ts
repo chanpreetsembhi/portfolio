@@ -5,6 +5,7 @@ import {
   SiGit,
   SiHtml5,
   SiJavascript,
+  SiLinux,
   SiNextdotjs,
   SiNodedotjs,
   SiReact,
@@ -30,7 +31,7 @@ import { DiIllustrator, DiPhotoshop } from "react-icons/di";
 export const featuredProjects: FeaturedProject[] = [
   {
     title: "NEP Dashboard",
-    description:"Student platform for reading educational notes.",
+    description: "Student platform for reading educational notes.",
     tags: ["Vue.js", "Tailwind", "TypeScript"],
     github: "https://github.com/chanpreetsembhi/nep-dash",
     live: "https://nep-dash.vercel.app",
@@ -129,6 +130,7 @@ export const skills: Skill[] = [
   { icon: SiGit, name: "Git", color: "text-[#F05032]" },
   { icon: DiPhotoshop, name: "Photoshop", color: "text-sky-400" },
   { icon: DiIllustrator, name: "Illustrator", color: "text-orange-500" },
+  { icon: SiLinux, name: "Linux", color: "text-zinc-900 dark:text-amber-400" },
 ];
 
 export const projects: Project[] = [
