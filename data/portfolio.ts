@@ -30,11 +30,11 @@ import { DiIllustrator, DiPhotoshop } from "react-icons/di";
 // Home Page
 export const featuredProjects: FeaturedProject[] = [
   {
-    title: "NEP Dashboard",
+    title: "Notivra Web App",
     description: "Student platform for reading educational notes.",
     tags: ["Vue.js", "Tailwind", "TypeScript"],
-    github: "https://github.com/chanpreetsembhi/nep-dash",
-    live: "https://nep-dash.vercel.app",
+    github: "https://github.com/chanpreetsembhi/notivra",
+    live: "https://notivra-notes.vercel.app",
     gradient: "from-sky-500/10 to-blue-500/10",
   },
   {
@@ -135,11 +135,11 @@ export const skills: Skill[] = [
 
 export const projects: Project[] = [
   {
-    img: "/projects/notes-app.png",
-    title: "Notes Web App",
+    img: "/projects/notivra.png",
+    title: "Notivra Web App",
     desc: "Development of a flexible and highly customizable design system using Vue.js for front-end and Figma for design collaboration.",
-    code: "https://github.com/chanpreetsembhi/nep-dash",
-    link: "https://nep-dash.vercel.app",
+    code: "https://github.com/chanpreetsembhi/notivra",
+    link: "https://notivra-notes.vercel.app",
   },
   {
     img: "/projects/e-card.jpg",
