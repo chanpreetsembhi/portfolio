@@ -38,11 +38,11 @@ export const featuredProjects: FeaturedProject[] = [
     gradient: "from-sky-500/10 to-blue-500/10",
   },
   {
-    title: "NEP Mobile App",
+    title: "Notivra App",
     description: "Mobile app for accessing notes and resources.",
     tags: ["React Native", "Expo"],
-    github: "https://github.com/chanpreetsembhi/nep-app",
-    live: "https://github.com/chanpreetsembhi/nep-app/releases/tag/beta",
+    github: "https://github.com/chanpreetsembhi/notivra-app",
+    live: "https://github.com/chanpreetsembhi/notivra-app/releases/tag/1.0.0",
     gradient: "from-violet-500/10 to-purple-500/10",
   },
   {
